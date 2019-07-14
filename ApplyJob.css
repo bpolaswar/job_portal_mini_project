@@ -1,0 +1,252 @@
+body
+{
+background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(banner5.jpg);
+height:100vh;
+background-size:cover;
+background-position: center;
+}
+.form
+{
+position:relative;
+z-index: 1;
+background:#e4e2e221;
+max-width: 360px;
+margin:0 auto 100px;
+padding: 45px;
+text-align:center;
+color:black;
+
+}
+
+.form input
+{
+font-family: "Roboto" , sans-serif;
+outline:1;
+background: #f2f2f2;
+width:100%;
+border: 0;
+margin: 0 0 15px;
+padding:15px;
+box-sizing: border-box;
+font-size:14px;
+
+}
+.form select
+{
+font-family: "Roboto" , sans-serif;
+outline:1;
+background: #f2f2f2;
+width:100%;
+border: 0;
+margin: 0 0 15px;
+padding:15px;
+box-sizing: border-box;
+font-size:14px;
+
+}
+
+.form textarea
+{
+font-family: "Roboto" , sans-serif;
+outline:1;
+background: #f2f2f2;
+width:100%;
+border: 0;
+margin: 0 0 15px;
+padding:15px;
+box-sizing: border-box;
+font-size:14px;
+
+}
+.form password
+{
+font-family: "Roboto" , sans-serif;
+outline:1;
+background: #f2f2f2;
+width:100%;
+border: 0;
+margin: 0 0 15px;
+padding:15px;
+box-sizing: border-box;
+font-size:14px;
+
+}
+.form #submit
+{
+font-family: "Roboto" , sans-serif;
+text-transform:uppercase;
+outline:0;
+background:#4CAF50;
+width:100%;
+border:0;
+padding:15px;
+color:#FFFFFF;
+font-size:14px;
+cursor:pointer;
+}
+.form #submit:hover,.form button:active
+{
+background: #43A047;
+}
+
+.form .message
+{
+margin:15px 0 0;
+color:aliceblue;
+font-size:15px;
+}
+.form .messasge a
+{
+color:#4CAF50;
+text-decoration:none;
+}
+
+
+h1
+{
+margin: 0;
+padding: 0 0 20px;
+text-align: center;
+font-size: 60px;
+font-family:Palatino Linotype;
+color:#ffdacc;
+}
+
+/*rgba(7, 40, 195,0.8);*/
+
+.form select
+{
+font-family: "Roboto" , sans-serif;
+outline:1;
+background: #f2f2f2;
+width:100%;
+border: 0;
+margin: 0 0 15px;
+padding:15px;
+box-sizing: border-box;
+font-size:14px;
+
+}
+
+#header{
+	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(Header2.jpg);
+	background-color:DarkGrey;
+  color:red;
+  text-align:center;
+  height:20%;
+ border :2px soild black;
+  }
+  nav {    
+  display: block;
+  text-align: center;
+}
+nav ul {
+  margin: 0;
+  padding:0;
+  list-style: none;
+}
+.nav a {
+  display:block; 
+  background: #111; 
+  color: #fff; 
+  text-decoration: none;
+  padding: 0.8em 1.8em;
+  text-transform: uppercase;
+  font-size: 80%;
+  letter-spacing: 2px;
+  text-shadow: 0 -1px 0 #000;
+  position: relative;
+}
+.nav{  
+  vertical-align: top; 
+  display: inline-block;
+}
+.nav li {
+  position: relative;
+}
+.nav > li { 
+  float: left; 
+  border-bottom: 4px #aaa solid; 
+  margin-right: 1px; 
+} 
+.nav > li > a { 
+  margin-bottom: 1px;
+}
+.nav > li:hover, 
+.nav > li:hover > a { 
+  border-bottom-color: orange;
+}
+.nav li:hover > a { 
+  color:orange; 
+}
+.nav > li:first-child { 
+  border-radius: 4px 0 0 4px;
+} 
+.nav > li:first-child > a { 
+  border-radius: 4px 0 0 0;
+}
+.nav > li:last-child { 
+  border-radius: 0 0 4px 0; 
+  margin-right: 0;
+} 
+.nav > li:last-child > a { 
+  border-radius: 0 4px 0 0;
+}
+.nav li li a { 
+  margin-top: 1px;
+}
+
+.nav li a:first-child:nth-last-child(2):before { 
+  content: ""; 
+  position: absolute; 
+  height: 0; 
+  width: 0; 
+  border: 5px solid transparent; 
+  top: 50% ;
+  right:5px;  
+ }
+ 
+ /* submenu positioning*/
+.nav ul {
+  position: absolute;
+  white-space: nowrap;
+  border-bottom: 5px solid  orange;
+  z-index: 1;
+  left: -99999em;
+}
+.nav > li:hover > ul {
+  left: auto;
+  margin-top: 5px;
+  min-width: 100%;
+}
+.nav > li li:hover > ul { 
+  left: 100%;
+  margin-left: 1px;
+  top: -1px;
+}
+/* arrow hover styling */
+.nav > li > a:first-child:nth-last-child(2):before { 
+  border-top-color: #aaa; 
+}
+.nav > li:hover > a:first-child:nth-last-child(2):before {
+  border: 5px solid transparent; 
+  border-bottom-color: orange; 
+  margin-top:-5px
+}
+.nav li li > a:first-child:nth-last-child(2):before {  
+  border-left-color: #aaa; 
+  margin-top: -5px
+}
+.nav li li:hover > a:first-child:nth-last-child(2):before {
+  border: 5px solid transparent; 
+  border-right-color: orange;
+  right: 10px; 
+}
+#menu{
+background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(Header2.jpg);}
+
+footer
+{
+	 background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(Header2.jpg);
+	 
+}

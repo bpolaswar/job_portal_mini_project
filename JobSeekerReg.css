@@ -1,0 +1,18 @@
+#header{
+	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(Header2.jpg);
+	background-color:DarkGrey;
+  color:red;
+  text-align:center;
+  height:auto;
+ border :2px soild black;
+  }
+  #menu{background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(Header2.jpg);}
+  nav {    
+  display: block;
+  text-align: center;
+}
+footer
+{
+	 background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(Header2.jpg);
+	 
+}

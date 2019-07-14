@@ -1,0 +1,34 @@
+#header{
+	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(Header2.jpg);
+	background-color:DarkGrey;
+  color:red;
+  text-align:center;
+  height:20%;
+ border :2px soild black;
+ }
+
+#con{
+   font-size:28;	
+   
+}
+b{color:red;
+font-size:30;
+}
+
+body
+{
+background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(banner5.jpg);
+height:100vh;
+background-size:cover;
+background-position: center;
+font-size:18;
+color:black;
+}
+footer
+{
+	 background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(Header2.jpg);
+	 
+}
+#menu{background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(Header2.jpg);}
+h2{color:yellow;
+}

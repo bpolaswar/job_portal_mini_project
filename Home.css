@@ -1,0 +1,35 @@
+/*#footer
+{ width: 900px;
+  font: normal 100% 'lucida sans unicode', arial, sans-serif;
+  height: 33px;
+  padding: 24px 0 5px 0;
+  text-align: center; 
+  background: transparent url(transparent.png) repeat;
+  color: #FFF;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;}
+
+#footer a
+{ color: #FFF;
+  text-decoration: none;}
+
+#footer a:hover
+{ color: #FFF;
+  text-decoration: underline;}*/
+  
+
+ /* #menu
+  {
+	  background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(Header2.jpg);
+  }*/
+  
+ footer{background-color:grey;} 
+ #header{
+	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(Header2.jpg);
+	background-color:DarkGrey;
+  color:red;
+  text-align:center;
+  height:20%;
+ border :2px soild black;
+ 
+  }

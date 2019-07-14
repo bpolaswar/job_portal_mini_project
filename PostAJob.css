@@ -1,0 +1,143 @@
+body
+{
+background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(banner5.jpg);
+height:100vh;
+background-size:cover;
+background-position: center;
+}
+#menu{background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(Header2.jpg);};
+.form
+{
+position:relative;
+z-index: 1;
+background:#e4e2e221;
+max-width: 360px;
+margin:0 auto 100px;
+padding: 45px;
+text-align:center;
+color:#fff;
+
+}
+
+.form input
+{
+font-family: "Roboto" , sans-serif;
+outline:1;
+background: #f2f2f2;
+width:100%;
+border: 0;
+margin: 0 0 15px;
+padding:15px;
+box-sizing: border-box;
+font-size:14px;
+
+}
+.form select
+{
+font-family: "Roboto" , sans-serif;
+outline:1;
+background: #f2f2f2;
+width:100%;
+border: 0;
+margin: 0 0 15px;
+padding:15px;
+box-sizing: border-box;
+font-size:14px;
+
+}
+
+.form textarea
+{
+font-family: "Roboto" , sans-serif;
+outline:1;
+background: #f2f2f2;
+width:100%;
+border: 0;
+margin: 0 0 15px;
+padding:15px;
+box-sizing: border-box;
+font-size:14px;
+
+}
+.form password
+{
+font-family: "Roboto" , sans-serif;
+outline:1;
+background: #f2f2f2;
+width:100%;
+border: 0;
+margin: 0 0 15px;
+padding:15px;
+box-sizing: border-box;
+font-size:14px;
+
+}
+.form #submit
+{
+font-family: "Roboto" , sans-serif;
+text-transform:uppercase;
+outline:0;
+background:#4CAF50;
+width:100%;
+border:0;
+padding:15px;
+color:#FFFFFF;
+font-size:14px;
+cursor:pointer;
+}
+.form .postjob:hover,.form button:active
+{
+background: #43A047;
+}
+
+.form .message
+{
+margin:15px 0 0;
+color:aliceblue;
+font-size:15px;
+}
+.form .messasge a
+{
+color:#4CAF50;
+text-decoration:none;
+}
+
+
+h1
+{
+margin: 0;
+padding: 0 0 20px;
+text-align: center;
+font-size: 22px
+}
+
+rgba(7, 40, 195,0.8);
+
+.form select
+{
+font-family: "Roboto" , sans-serif;
+outline:1;
+background: #f2f2f2;
+width:100%;
+border: 0;
+margin: 0 0 15px;
+padding:15px;
+box-sizing: border-box;
+font-size:14px;
+
+}
+
+#header{
+	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(Header2.jpg);
+	background-color:DarkGrey;
+  color:red;
+  text-align:center;
+  height:20%;
+ border :2px soild black;
+  }
+  
+footer
+{
+	 background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(Header2.jpg);
+	 
+}
